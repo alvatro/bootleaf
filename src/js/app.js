@@ -33,6 +33,12 @@ var bootleaf = {
     {"id": "esriNationalGeographic", "type": "esri", "theme": "NationalGeographic", "label": "National Geographic (ArcGIS)"},
     {"id": "esriOceans", "type": "esri", "theme": "Oceans", "label": "Oceans (ArcGIS)"},
     {"id": "OpenStreetMap", "type": "tiled", "label": "OpenStreetMap", "url": "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"},
+    {"id": "OpenTopoMap", "type": "tiled", "label": "OpenTopoMap", "url": "https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png"},
+    {"id": "CartoDB_Positron", "type": "tiled", "label": "CartoDB Positron", "url": "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"},
+    {"id": "CartoDB_DarkMatter", "type": "tiled", "label": "CartoDB DarkMatter", "url": "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"},
+    {"id": "CartoDB_Voyager", "type": "tiled", "label": "CartoDB Voyager", "url": "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"},
+    {"id": "HikeBike_HikeBike", "type": "tiled", "label": "HikeBike", "url": "https://tiles.wmflabs.org/hikebike/{z}/{x}/{y}.png"},
+    {"id": "Wikimedia", "type": "tiled", "label": "Wikimedia", "url": "https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}{r}.png"},
     {"id": "Aerial", "type": "bing", "label": "Bing satellite"},
     {"id": "AerialWithLabels", "type": "bing", "label": "Bing satellite labels"},
     {"id": "Road", "type": "bing", "label": "Bing streets"}
